@@ -22,6 +22,7 @@ exports.config =
       order:
         before: [
           'vendor/styles/bootstrap.css'
+          'vendor/styles/bootstrap-body.css'
           'vendor/styles/bootstrap-responsive.css'
         ]
         after: []
