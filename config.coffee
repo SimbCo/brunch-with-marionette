@@ -15,7 +15,7 @@ exports.config =
           'vendor/scripts/underscore.js'
           'vendor/scripts/backbone.js'
           'vendor/scripts/backbone.marionette.js'
-          'vendor/scripts/bootstrap.js'
+          'vendor/scripts/bootstrap.min.js'
         ]
         after: [
           'test/vendor/scripts/test-helper.js'
@@ -26,9 +26,8 @@ exports.config =
       joinTo: 'stylesheets/app.css'
       order:
         before: [
-          'vendor/styles/bootstrap.css'
-          'vendor/styles/bootstrap-body.css'
-          'vendor/styles/bootstrap-responsive.css'
+          'vendor/styles/bootstrap.min.css'
+          'vendor/styles/bootstrap-theme.min.css'
         ]
         after: []
 
