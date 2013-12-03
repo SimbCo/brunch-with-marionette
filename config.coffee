@@ -23,7 +23,10 @@ exports.config =
 
     stylesheets:
       defaultExtension: 'styl'
-      joinTo: 'stylesheets/app.css'
+      joinTo:
+        'stylesheets/app.css': /^app(\/|\\)views(\/|\\)styles(\/|\\)/
+        'stylesheets/vendor.css': /^vendor(\/|\\)styles/
+        'test/stylesheets/vendor.css': /^test(\/|\\)vendor(\/|\\)styles(\/|\\)/
       order:
         before: [
           'vendor/styles/bootstrap.min.css'

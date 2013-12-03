@@ -1,7 +1,5 @@
 tests = [
-  './views/header-view-test'
-  './views/home-page-view-test'
-  './views/site-view-test'
+  './views/home-view-test'
 ]
 
 for test in tests
