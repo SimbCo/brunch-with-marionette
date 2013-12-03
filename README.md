@@ -6,7 +6,7 @@ Main languages are [CoffeeScript](http://coffeescript.org/),
 [Handlebars](http://handlebarsjs.com/).
 
 ## Getting started
-* Create new project via executing `brunch new <project name> --skeleton https://github.com/SimbCo/brunch-with-marionette.git` option for the command.
+* Create new project via executing `brunch new https://github.com/SimbCo/brunch-with-marionette.git <project-name>` option for the command.
 * Build the project with `brunch b` or `brunch w`.
 * Open the `public/` dir to see the result.
 * Write your code.
@@ -15,10 +15,10 @@ Main languages are [CoffeeScript](http://coffeescript.org/),
 Versions of software the skeleton uses:
 
 * jQuery 1.10.2
-* Backbone 1.0.0
-* Underscore 1.5.1
+* Backbone 1.1.0
+* Underscore 1.5.2
 * Twitter Bootstrap 2.2.2
-* MarionetteJS 1.0.3
+* MarionetteJS 1.3.0
 
 # Legal Stuff (MIT License)
 Template is Copyright (c) 2013 Simeon Bateman; SimB & Company.  We assume no rights or liablities for the code contained.  All libraries are owned and licensed by the ownsers.  Use at your own risk.
