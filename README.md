@@ -14,11 +14,11 @@ Main languages are [CoffeeScript](http://coffeescript.org/),
 ## Other
 Versions of software the skeleton uses:
 
-* jQuery 1.10.2
-* Backbone 1.1.0
-* Underscore 1.5.2
-* Twitter Bootstrap 3.0.2
-* MarionetteJS 1.3.0
+* jQuery 1.11.1
+* Backbone 1.1.2
+* Underscore 1.6.0
+* Twitter Bootstrap 3.2.0
+* MarionetteJS 1.8.8
 
 # Legal Stuff (MIT License)
 Template is Copyright (c) 2013 Simeon Bateman; SimB & Company.  We assume no rights or liablities for the code contained.  All libraries are owned and licensed by the ownsers.  Use at your own risk.
