@@ -7,6 +7,7 @@ Main languages are [CoffeeScript](http://coffeescript.org/),
 
 ## Getting started
 * Create new project via executing `brunch new https://github.com/SimbCo/brunch-with-marionette.git <project-name>` option for the command.
+* Enter the project directory `cd <project-name>`
 * Build the project with `brunch b` or `brunch w`.
 * Open the `public/` dir to see the result.
 * Write your code.
