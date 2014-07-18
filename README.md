@@ -14,9 +14,6 @@ Main languages are [CoffeeScript](http://coffeescript.org/),
 ## Other
 Versions of software the skeleton uses:
 
-* jQuery 1.11.1
-* Backbone 1.1.2
-* Underscore 1.6.0
 * Twitter Bootstrap 3.2.0
 * MarionetteJS 1.8.8
 

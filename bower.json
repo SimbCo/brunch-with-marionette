@@ -1,0 +1,23 @@
+{
+    "name": "brunch-with-marionette",
+    "version": "2.0.0",
+    "homepage": "https://github.com/SimbCo/brunch-with-marionette",
+    "authors": [
+        "Simeon Bateman <simeon@simb.co>"
+    ],
+    "license": "MIT",
+    "private": true,
+    "directory": "./",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "marionette": "~2.0.2",
+        "bootstrap": "~3.2.0"
+    }
+}

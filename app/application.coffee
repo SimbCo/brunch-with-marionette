@@ -4,7 +4,7 @@ require 'lib/view_helper'
 class Application extends Backbone.Marionette.Application
     initialize: =>
          
-        @on("initialize:after", (options) =>
+        @on("start", (options) =>
             Backbone.history.start();
             # Freeze the object
             Object.freeze? this
