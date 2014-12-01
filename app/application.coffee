@@ -5,7 +5,7 @@ class Application extends Backbone.Marionette.Application
     initialize: =>
          
         @on("start", (options) =>
-            Backbone.history.start();
+            Backbone.history.start()
             # Freeze the object
             Object.freeze? this
         )
